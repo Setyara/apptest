@@ -1,0 +1,33 @@
+header {
+    height: 60px;
+    background-color: #999;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    .logo {
+        float: left;
+        width: 250px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .header {
+        text-align: center;
+        line-height: 70px;
+        font-size: 24px;
+        .account {
+            float: right;
+            a {
+                text-decoration: none;
+                color: #444;
+                padding-right: 30px;
+                font-size: 18px;
+            }
+            a:hover {
+                color: #111;
+            }
+        }
+    }
+}

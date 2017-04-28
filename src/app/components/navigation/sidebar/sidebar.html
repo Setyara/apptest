@@ -1,0 +1,8 @@
+<div class="sidebar">
+    <div class="sidebar-item"
+         ng-repeat="item in sc.nav"
+         ng-bind="item.title"
+         ng-class="{'active': item.active}"
+         ng-click="sc.goTo(item)">
+    </div>
+</div>

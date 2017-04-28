@@ -1,0 +1,30 @@
+{
+    "extends": "eslint:recommended",
+    "plugins": [
+        "angular"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unreachable": 0,
+        "angular/log": 1,
+        "no-console": 0,
+        "no-extra-semi": 1,
+        "no-undef": 1,
+        "no-unused-vars": 0,
+        "comma-dangle": 0
+    },
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "modules": true
+    },
+    "globals": {
+        "angular": true,
+        "module": true,
+        "inject": true
+    }
+}

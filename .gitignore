@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Source code editors
+.idea
+.vscode/
+.sublime-gulp.cache
+*~
+
+# Logging
+*.log
+
+# Stats
+stats.json
+
+# OS generated files
+.DS_Store
+
+
+# Cache and temporary files
+.sass-cache/
+.tmp/
+
+# Binaries
+*.exe
+*.bin
+*.zip

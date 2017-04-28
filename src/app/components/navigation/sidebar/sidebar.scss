@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 61px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #ccc;
+        border-right: 1px solid #ccc;
+        width: 250px;
+        h3 {
+            text-align: center;
+        }
+        .sidebar-item {
+            cursor: pointer;
+            padding: 13px 30px;
+            border-bottom: 2px solid white;
+        }
+        .sidebar-item:hover {
+            background-color: #999;
+        }
+        .active {
+            background-color: #888;
+        }
+    }
+}

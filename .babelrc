@@ -1,0 +1,30 @@
+{
+    "presets": [
+        "es2015"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./src"
+                ],
+                "alias": {
+                    "config": "/app/config",
+                    "components": "/app/components",
+                    "layouts": "/app/layouts",
+                    "filters": "/app/filters",
+                    "services": "/app/services",
+                    "utils": "/app/utils",
+                    "directives": "/app/directives"
+                }
+            }
+        ],
+        [
+            "transform-object-rest-spread",
+            {
+                "useBuiltIns": true
+            }
+        ]
+    ]
+}
